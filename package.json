@@ -1,0 +1,27 @@
+{
+  "name": "freshdesk-client",
+  "version": "1.0.0",
+  "description": "Client utility to retreive freshdesk information and store it on JSON files.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "commander": "^2.15.1",
+    "json2csv": "^4.5.3",
+    "lodash": "^4.17.15",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.0",
+    "eslint-plugin-jsdoc": "^15.9.5",
+    "mocha": "^6.2.1"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "docs:build": "documentation build ./** -f html -o docs"
+  },
+  "author": "Mario Alvarado",
+  "license": "ISC"
+}

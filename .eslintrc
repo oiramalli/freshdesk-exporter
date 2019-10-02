@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "jsdoc"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:jsdoc/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+    }
+  },
+  "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+  }
+}
