@@ -10,7 +10,7 @@
     "co": "^4.6.0",
     "commander": "^2.15.1",
     "json2csv": "^4.5.3",
-    "lodash": "^4.17.15",
+    "lodash": ">=4.17.19",
     "request": "^2.87.0"
   },
   "devDependencies": {
